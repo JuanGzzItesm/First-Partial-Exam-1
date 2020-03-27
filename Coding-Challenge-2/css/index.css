@@ -1,7 +1,48 @@
 
+* {
+	box-sizing: border-box;
+}
 
 div{
     border: 1px solid black;
     padding: 5px;
 }
 
+
+/*-----------------------------MOVIL------------------------------------*/
+
+
+
+.content{
+
+	visibility: hidden;
+}
+
+.heading{
+
+	visibility: hidden;
+}
+
+
+.navigation{
+
+	display:flex;
+	flex-direction: row;
+}
+
+
+
+@media((min-width: 600px) and (max-width: 990px)){
+
+.heading{
+
+	visibility: hidden;
+}
+
+.navigation{
+
+	display:flex;
+	flex-direction: row;
+}
+
+}
